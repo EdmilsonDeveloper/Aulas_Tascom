@@ -1,0 +1,44 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(237, 236, 236);
+  border-radius: 10px;
+}
+
+#cadastro{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#nome, #email{
+  height: 30px;
+}
+
+#cadastrar{
+  height: 30px;
+  background-color: rgb(62, 97, 251);
+  color: white;
+  border: 0;
+}
+
+.button1{
+ all: unset;
+ color: green;
+}
+
+.button2{
+  all: unset;
+  color: red;
+ }
+
+button:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}

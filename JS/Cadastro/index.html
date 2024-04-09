@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Formulário de Cadastro de Usuário</h1>
+
+    <form id="formUsuario" onsubmit="adicionarUsuario(event)">
+      <div id="cadastro">
+        <input 
+        type="text"
+        placeholder="Nome de Usuário"
+        id="nome"
+        required=""
+        >
+
+        <input 
+        type="email"
+        placeholder="Email"
+        id="email"
+        required=""
+        >
+
+        <button id="cadastrar">Cadastrar</button>
+      </div>
+    </form>
+
+    <div>
+      <h1>Lista de Usuário</h1>
+      <ul id="lista" type="none"></ul>
+    </div>
+  </div>
+
+</body>
+<script src="script.js"></script>
+</html>
