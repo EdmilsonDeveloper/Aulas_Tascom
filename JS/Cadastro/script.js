@@ -26,6 +26,4 @@ const editarCadastro = (event) => {
   event.target.parentNode.remove();
 };
 
-const cadastro = document.getElementById("cadastro");
 const lista = document.getElementById("lista");
-const button = document.getElementById("cadastrar");
