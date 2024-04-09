@@ -36,6 +36,7 @@ body{
 .button1{
  all: unset;
  color: green;
+ margin-right: 5px;
 }
 
 .button2{
