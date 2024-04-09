@@ -1,4 +1,5 @@
 body{
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
 }
@@ -9,6 +10,10 @@ body{
   flex-direction: column;
   background-color: rgb(237, 236, 236);
   border-radius: 10px;
+}
+
+.ct{
+  margin: 5px 10px;
 }
 
 #cadastro{
@@ -41,4 +46,9 @@ body{
 button:hover{
   text-decoration: underline;
   cursor: pointer;
+}
+
+li{
+  list-style-type: none;
+  margin-bottom: 10px;
 }
