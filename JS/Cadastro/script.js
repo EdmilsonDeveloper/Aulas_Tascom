@@ -20,7 +20,7 @@ const excluirCadastro = (event) => {
 };
 
 const editarCadastro = (event) => {
-  var textoSeparado = event.target.parentNode.textContent.split(" - ");
+  let textoSeparado = event.target.parentNode.textContent.split(" - ");
   document.getElementById("nome").value = textoSeparado[0];
   document.getElementById("email").value = textoSeparado[1];
   event.target.parentNode.remove();
