@@ -1,0 +1,13 @@
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #475569;
+    color: #f8fafc;
+    font-weight: bold;
+    cursor: pointer;
+    flex-direction: column;
+}
+button:hover {
+    background-color: rgba(71, 85, 105, 0.6);
+  }
