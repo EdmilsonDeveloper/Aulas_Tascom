@@ -23,6 +23,7 @@ export default function Container({ children, styles }) {
                     borderRadius: "10px",
                     boxShadow: "0 0 10px 0 rgba(0, 0, 0, 0.2)",
                     color: "#000000",
+                    // textAlign: "center",
                     ...styles,
                 }}
             >

@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Container, Button } from '../components';
+import { useNavigate } from 'react-router-dom';
 import api from '../config/api';
 
 export default function Home() {
     const [persons, setPersons] = useState([]);
+    const navigate = useNavigate();
         
     useEffect(() => {
         api
@@ -27,10 +29,11 @@ export default function Home() {
               }}>
                 {persons.map((person) => (
                     <Card
+                        key={person.id}
                         title={person.name}
                         subtitle={person.status}
                         image={person.image}
-                        onClick={() => window.location.href = (`/about?id=${person.id}`)}
+                        onClick={() => navigate(`/about/${person.id}`)}
                     />
                 ))}
             </div>
